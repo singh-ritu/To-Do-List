@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: xx-large;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+.list {
+  margin-top: 24px;
+}
