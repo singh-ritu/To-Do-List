@@ -1,5 +1,6 @@
-console.log("hello");
 const input = document.querySelector("#input_todo");
+
+//taking inputvalue in the form of h2 tag in a div by creating dynamically
 function handleAddTodo() {
   console.log(input.value);
 
@@ -10,7 +11,9 @@ function handleAddTodo() {
   divElement.style.border = "1px solid black";
   divElement.style.padding = "8px 16px";
   divElement.style.marginBottom = " 16px";
-  console.log(h2Element);
+  divElement.style.backgroundColor = "lightgrey";
+  divElement.style.borderRadius = "2px";
+
   const list = document.querySelector(".list");
   list.appendChild(divElement);
   input.value = "";
